@@ -1,2 +1,2 @@
 # portfolio
-A portfolio webpage for IT-Garnet
+A portfolio webpage for Griffin Revis
