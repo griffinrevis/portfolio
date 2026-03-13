@@ -94,7 +94,7 @@ a:visited {
 }
 
 .menu ul li a:hover {
-  border-bottom: #333 dotted;
+  border-bottom: #333 solid;
 }
 
 .menu ul li a.active {
@@ -105,18 +105,22 @@ a:visited {
 /* Index HTML Styles*/
 
 .hero-info {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   align-items: center;
-  text-align: center;
+  gap: 2rem;
   max-width: 1200px;
   margin: 1rem auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+.headshot-img {
+  width: 100%;
+}
+
 img.headshot {
-  width: 70%;
+  width: 100%;
   height: auto;
   border-radius: 1rem;
 }
@@ -148,6 +152,11 @@ img.headshot {
 
 .elv-pitch-heading {
   font-size: 64px;
+}
+
+.elv-pitch-heading-1 {
+  font-size: 64px;
+  text-align: center;
 }
 
 /* About / Resume Styles*/
@@ -192,7 +201,7 @@ img.headshot {
   margin: 0;
   font-size: 1rem;
   font-weight: 500;
-  color: #6d6c6c;
+  color: #000000;
 }
 
 
