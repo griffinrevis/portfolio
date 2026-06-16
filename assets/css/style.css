@@ -638,15 +638,20 @@ img.headshot {
 /* Tablet */
 
 @media (max-width: 1024px) {
-  .hero-info,
-  .resume,
-  .work-grid {
+    .hero-info {
     max-width: 90%;
   }
 
-  .skills-grid {
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 90%;
+  .work-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .work-sidebar {
+    position: static;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -684,9 +689,13 @@ img.headshot {
     font-size: 12px;
   }
 
-  .resume {
-    grid-template-columns: 1fr;
-  }
+.work-layout {
+  grid-template-columns: 1fr;
+}
+
+.work-sidebar {
+  position: static;
+}
 
   .edu-exp,
   .job {
